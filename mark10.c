@@ -10,14 +10,14 @@ char na[20],dt1[30],dt2[30];
 void main()
 {
 struct st s[10];
-int x,n=0,i,b,t=0,g;
+int Y,n=0,i,b,t=0,g;
 clrscr();
 while(1){
-printf("\n******************WELCOME TO STUDENT OUTING PORTAL**********************");
+printf("\n******************STUDENT OUTING PORTAL**********************");
 printf("\n1.Admin\n2.Student\n3.Exit");
 printf("\nEnter Your Choice:");
-scanf("%d",&x);
-switch(x){
+scanf("%d",&Y);
+switch(Y){
 case 1:{
 if(t==0){
 printf("\nEnter The New Password(4 digit number): ");
